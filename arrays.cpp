@@ -13,5 +13,13 @@ int main()
     int arr2[3][4]; // 3 rows and 4 columns
     arr2[1][2] = 5; // assigning 5 to the element at row 1, column 2
     cout << arr2[1][2] << endl; // printing the element at row 1, column 2
+
+
+    // loops with arrays
+    int arr3[7];
+    for(int i = 0; i < 7; i++)
+    {
+        cin >> arr3[i]; // taking input for each element of the array
+    }  
     return 0;
 }
